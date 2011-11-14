@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testrun name="tdd-ex3" project="tdd-ex3" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="br.com.caelum.tdd.exercise3.InvoiceTest" time="0.0">
+    <testcase name="shouldMarkTheInvoiceAsPaidWhenFullyPaid" classname="br.com.caelum.tdd.exercise3.InvoiceTest" time="0.0"/>
+    <testcase name="shouldNotMarkTheInvoiceAsPaidWhileNotYedPaid" classname="br.com.caelum.tdd.exercise3.InvoiceTest" time="0.0"/>
+  </testsuite>
+  <testsuite name="br.com.caelum.tdd.exercise3.BankslipProcessorTest" time="0.0">
+    <testcase name="shouldNotGeneratePaymentWhenThereIsNoBankslips" classname="br.com.caelum.tdd.exercise3.BankslipProcessorTest" time="0.0"/>
+    <testcase name="shouldGenerateABankslipPaymentForAnInvoice" classname="br.com.caelum.tdd.exercise3.BankslipProcessorTest" time="0.0"/>
+  </testsuite>
+</testrun>

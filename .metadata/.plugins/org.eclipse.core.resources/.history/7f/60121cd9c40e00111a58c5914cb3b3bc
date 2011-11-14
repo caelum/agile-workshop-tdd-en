@@ -1,0 +1,40 @@
+package br.com.gnarus.tdd.exercise5;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
+import br.com.gnarus.tdd.exercise5.RegularBankAccount;
+
+public class RegularBankAccountTests {
+
+	@Test
+	public void shouldDepositAmount() {
+		RegularBankAccount account = new RegularBankAccount();
+		
+		account.deposit(1000.0);
+		assertEquals(1000, account.getBalance(), 0.00001);
+		
+		account.deposit(500.5);
+		assertEquals(1500.5, account.getBalance(), 0.00001);
+	}
+	
+
+	public void shouldWithDrawIfAmountIsLessThanTheAvailableBalance() {
+		RegularBankAccount account = new RegularBankAccount();
+		account.deposit(1000.0);
+		
+		account.withdraw(900);
+		
+		assertEquals(100.0, account.getBalance(), 0.00001);
+	}
+	
+	@Test(expected=IllegalArgumentException.class)
+	public void shouldForbitWithdrawIfRequestedAmountIsGreaterThanCurrentBalance() {
+		RegularBankAccount account = new RegularBankAccount();
+		account.deposit(1000.0);
+		
+		account.withdraw(2000.0);
+	}
+	
+}

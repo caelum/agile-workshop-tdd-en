@@ -1,0 +1,28 @@
+package br.com.caelum.tdd.exercise6;
+
+import static org.junit.Assert.assertEquals;
+
+import java.util.Arrays;
+import java.util.Calendar;
+
+import org.junit.Test;
+
+import br.com.caelum.tdd.exercise6.Candle;
+import br.com.caelum.tdd.exercise6.OpeningIndicator;
+
+public class OpeningIndicatorTests {
+
+	@Test
+	public void shouldReturnCandleOpeningValue() {
+		double amount = new OpeningIndicator().calculate(1, Arrays.asList(
+				candleWithOpening(10.0), candleWithOpening(12.0),
+				candleWithOpening(11.0)));
+
+		assertEquals(12.0, amount, 0.00001);
+
+	}
+
+	private Candle candleWithOpening(double opening) {
+		return new Candle(opening, 0, 0, 0, Calendar.getInstance());
+	}
+}

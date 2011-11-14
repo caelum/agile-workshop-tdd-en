@@ -1,0 +1,40 @@
+package br.com.caelum.tdd.exercise6;
+
+import java.util.Calendar;
+
+public class Candle {
+
+	private double opening;
+	private double closing;
+	private double minimum;
+	private double maximum;
+	private Calendar date;
+	
+	public Candle(double opening, double closing, double minimum,
+			double maximum, Calendar date) {
+		this.opening = opening;
+		this.closing = closing;
+		this.minimum = minimum;
+		this.maximum = maximum;
+		this.date = date;
+	}
+	
+	public double getOpening() {
+		return opening;
+	}
+	public double getClosing() {
+		return closing;
+	}
+	public double getMinimum() {
+		return minimum;
+	}
+	public double getMaximum() {
+		return maximum;
+	}
+	public Calendar getDate() {
+		return date;
+	}
+	
+	
+	
+}

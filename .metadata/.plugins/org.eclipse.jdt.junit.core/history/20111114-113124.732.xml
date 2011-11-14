@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testrun name="tdd-ex1" project="tdd-ex1" tests="8" started="8" failures="0" errors="0" ignored="0">
+  <testsuite name="br.com.caelum.tdd.exercise1.SalaryCalculatorTests" time="0.002">
+    <testcase name="shouldReturn4000MinusTaxesOf20PercentIfDeveloperEarnsMoreThan3000" classname="br.com.caelum.tdd.exercise1.SalaryCalculatorTests" time="0.001"/>
+    <testcase name="shouldReturn1000MinusTaxesOf10PercentIfDeveloperEarnsLessThan3000" classname="br.com.caelum.tdd.exercise1.SalaryCalculatorTests" time="0.0"/>
+    <testcase name="shouldReturn4000MinusTaxesOf25PercentIfDBAEarnsMoreThan2000" classname="br.com.caelum.tdd.exercise1.SalaryCalculatorTests" time="0.0"/>
+    <testcase name="shouldReturn1000MinusTaxesOf15PercentoIfDBAEarnsLessThan2000" classname="br.com.caelum.tdd.exercise1.SalaryCalculatorTests" time="0.0"/>
+    <testcase name="shouldReturn4000MinusTaxesOf25PercentIfTesterEarnsMoreThan2000" classname="br.com.caelum.tdd.exercise1.SalaryCalculatorTests" time="0.0"/>
+    <testcase name="shouldReturn1000MinusTaxesOf15PercentIfTesterEarnsLessThan2000" classname="br.com.caelum.tdd.exercise1.SalaryCalculatorTests" time="0.0"/>
+    <testcase name="shouldReturn6000MinusTaxesOf20PercentIfProjectManagerEarnsMoreThan5000" classname="br.com.caelum.tdd.exercise1.SalaryCalculatorTests" time="0.0"/>
+    <testcase name="shouldReturn1000MinusTaxesOf15PercentIfProjectManagerEarnsLessThan5000" classname="br.com.caelum.tdd.exercise1.SalaryCalculatorTests" time="0.0"/>
+  </testsuite>
+</testrun>

@@ -1,0 +1,42 @@
+package br.com.caelum.tdd.exercicio6;
+
+import static org.junit.Assert.assertEquals;
+
+import java.util.Arrays;
+import java.util.Calendar;
+import java.util.List;
+
+import org.junit.Test;
+
+public class WeightedMovingAverageTests {
+
+	@Test
+	public void shouldCalculateOpeningWMA() {
+		List<Candle> series = Arrays.asList(candleWithOpening(10.0),
+				candleWithOpening(22.0), candleWithOpening(30.0));
+
+		double amount = new WeightedMovingAverage().calculate(2, series, "opening");
+
+		assertEquals(24.0, amount, 0.00001);
+	}
+	
+
+	@Test
+	public void shouldCalculateClosingWMA() {
+		List<Candle> series = Arrays.asList(candleWithClosing(10.0),
+				candleWithClosing(22.0), candleWithClosing(30.0));
+
+		double valor = new WeightedMovingAverage().calculate(2, series, "closing");
+
+		assertEquals(24.0, valor, 0.00001);
+	}
+
+
+	private Candle candleWithOpening(double opening) {
+		return new Candle(opening, 0, 0, 0, Calendar.getInstance());
+	}
+	
+	private Candle candleWithClosing(double closing) {
+		return new Candle(0, closing, 0, 0, Calendar.getInstance());
+	}
+}

@@ -1,0 +1,16 @@
+!SESSION 2011-11-14 11:24:39.615 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.6.0_24
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -keyring /Users/mauricioaniche/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -product org.eclipse.epp.package.jee.product -data /Users/mauricioaniche/dev/workspace-tdd -product org.eclipse.epp.package.jee.product -keyring /Users/mauricioaniche/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2011-11-14 11:24:46.272
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.mylyn.tasks.ui 4 0 2011-11-14 11:24:46.458
+!MESSAGE Could not load repository template extension contributed by com.industriallogic.embunit.eclipse with connectorKind trac
+
+!ENTRY org.eclipse.mylyn.tasks.ui 4 0 2011-11-14 11:24:46.459
+!MESSAGE Could not load repository template extension contributed by com.industriallogic.gtest.eclipse with connectorKind trac

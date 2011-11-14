@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testrun name="tdd-ex5" project="tdd-ex5" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="br.com.gnarus.tdd.exercise5.RegularBankAccountTests" time="0.0">
+    <testcase name="shouldDepositAmount" classname="br.com.gnarus.tdd.exercise5.RegularBankAccountTests" time="0.0"/>
+    <testcase name="shouldForbitWithdrawIfRequestedAmountIsGreaterThanCurrentBalance" classname="br.com.gnarus.tdd.exercise5.RegularBankAccountTests" time="0.0"/>
+  </testsuite>
+  <testsuite name="br.com.gnarus.tdd.exercise5.StudentBankAccountTests" time="0.0">
+    <testcase name="shouldEarnMilesForEachDepositedDollar" classname="br.com.gnarus.tdd.exercise5.StudentBankAccountTests" time="0.0"/>
+  </testsuite>
+</testrun>

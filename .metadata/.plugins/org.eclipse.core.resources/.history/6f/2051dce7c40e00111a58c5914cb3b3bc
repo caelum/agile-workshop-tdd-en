@@ -1,0 +1,10 @@
+package br.com.caelum.tdd.exercicio6;
+
+import java.util.List;
+
+public class MinimumIndicator{
+	
+	public double calculate(int position, List<Candle> serie){
+		return serie.get(position).getMinimum();
+	}
+}

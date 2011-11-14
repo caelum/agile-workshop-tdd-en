@@ -1,0 +1,27 @@
+package br.com.caelum.tdd.exercise3;
+
+import static org.junit.Assert.*;
+import static org.junit.Assert.assertTrue;
+
+import org.junit.Test;
+
+public class InvoiceTest {
+
+	@Test
+	public void shouldMarkTheInvoiceAsPaidWhenFullyPaid() {
+		Invoice invoice = new Invoice("caelum", 1000.0);
+		invoice.add(new Payment(1000, PaymentMethod.BANKSLIP));
+		
+		assertTrue(invoice.isPaid());
+	}
+
+
+	@Test
+	public void shouldNotMarkTheInvoiceAsPaidWhileNotYedPaid() {
+		Invoice invoice = new Invoice("caelum", 1000.0);
+		invoice.add(new Payment(900, PaymentMethod.BANKSLIP));
+		
+		assertFalse(invoice.isPaid());
+	}
+
+}

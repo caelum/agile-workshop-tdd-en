@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testrun name="tdd-ex2" project="tdd-ex2" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="br.com.caelum.tdd.exercise2.InvoiceGeneratorTests" time="0.184">
+    <testcase name="shouldGenerateInvoiceWith6PercentOfTaxes" classname="br.com.caelum.tdd.exercise2.InvoiceGeneratorTests" time="0.174"/>
+    <testcase name="shouldSendEmailWithTheInvoice" classname="br.com.caelum.tdd.exercise2.InvoiceGeneratorTests" time="0.009"/>
+    <testcase name="shouldPersistTheGenerateInvoice" classname="br.com.caelum.tdd.exercise2.InvoiceGeneratorTests" time="0.001"/>
+  </testsuite>
+</testrun>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testrun name="tdd-ex4" project="tdd-ex4" tests="8" started="8" failures="0" errors="0" ignored="0">
+  <testsuite name="br.com.gnarue.tdd.exercise4.NumericPuzzleTests" time="0.0">
+    <testcase name="shouldBuildPathForBegin2AndEnd2" classname="br.com.gnarue.tdd.exercise4.NumericPuzzleTests" time="0.0"/>
+    <testcase name="shouldBuildPathForBegin2AndEnd4" classname="br.com.gnarue.tdd.exercise4.NumericPuzzleTests" time="0.0"/>
+    <testcase name="shouldBuildPathForBegin2AndEnd8" classname="br.com.gnarue.tdd.exercise4.NumericPuzzleTests" time="0.0"/>
+    <testcase name="shouldBuildPathForBegin2AndEnd10" classname="br.com.gnarue.tdd.exercise4.NumericPuzzleTests" time="0.0"/>
+    <testcase name="shouldBuildPathForBegin3AndEnd10" classname="br.com.gnarue.tdd.exercise4.NumericPuzzleTests" time="0.0"/>
+    <testcase name="shouldBuildPathForBegin2AndEnd9" classname="br.com.gnarue.tdd.exercise4.NumericPuzzleTests" time="0.0"/>
+    <testcase name="shouldBuildPathForBegin9AndEnd2" classname="br.com.gnarue.tdd.exercise4.NumericPuzzleTests" time="0.0"/>
+    <testcase name="shouldBuildPathForBegin3AndEnd11" classname="br.com.gnarue.tdd.exercise4.NumericPuzzleTests" time="0.0"/>
+  </testsuite>
+</testrun>
