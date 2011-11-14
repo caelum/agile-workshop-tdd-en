@@ -1,0 +1,30 @@
+package br.com.caelum.tdd.exercise7;
+
+import java.util.Calendar;
+
+public class Invoice {
+
+	private final double amount;
+	private final Calendar date;
+	private final State state;
+
+	public Invoice(double amount, Calendar date, State state) {
+		this.amount = amount;
+		this.date = date;
+		this.state = state;
+	}
+
+	public double getAmount() {
+		return amount;
+	}
+
+	public Calendar getDate() {
+		return date;
+	}
+
+	public State getState() {
+		return state;
+	}
+
+	
+}

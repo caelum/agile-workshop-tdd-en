@@ -1,0 +1,3 @@
+#Mon Nov 14 11:32:45 BRST 2011
+//org.eclipse.debug.core.PREFERRED_DELEGATES/org.eclipse.cdt.launch.applicationLaunchType=org.eclipse.cdt.cdi.launch.localCLaunch,run
+eclipse.preferences.version=1

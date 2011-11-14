@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testrun name="tdd-ex6" project="tdd-ex6" tests="6" started="6" failures="0" errors="0" ignored="0">
+  <testsuite name="br.com.caelum.tdd.exercise6.OpeningIndicatorTests" time="0.018">
+    <testcase name="shouldReturnCandleOpeningValue" classname="br.com.caelum.tdd.exercise6.OpeningIndicatorTests" time="0.018"/>
+  </testsuite>
+  <testsuite name="br.com.caelum.tdd.exercise6.ClosingIndicatorTests" time="0.002">
+    <testcase name="shouldReturnClosingCandleValue" classname="br.com.caelum.tdd.exercise6.ClosingIndicatorTests" time="0.002"/>
+  </testsuite>
+  <testsuite name="br.com.caelum.tdd.exercise6.WeightedMovingAverageTests" time="0.002">
+    <testcase name="shouldCalculateOpeningWMA" classname="br.com.caelum.tdd.exercise6.WeightedMovingAverageTests" time="0.002"/>
+    <testcase name="shouldCalculateClosingWMA" classname="br.com.caelum.tdd.exercise6.WeightedMovingAverageTests" time="0.0"/>
+  </testsuite>
+  <testsuite name="br.com.caelum.tdd.exercise6.MinimumIndicatorTests" time="0.0">
+    <testcase name="shouldReturnTheMinimumCandleValue" classname="br.com.caelum.tdd.exercise6.MinimumIndicatorTests" time="0.0"/>
+  </testsuite>
+  <testsuite name="br.com.caelum.tdd.exercise6.MaximumIndicatorTests" time="0.0">
+    <testcase name="shouldReturnTheMaximumCandleValue" classname="br.com.caelum.tdd.exercise6.MaximumIndicatorTests" time="0.0"/>
+  </testsuite>
+</testrun>

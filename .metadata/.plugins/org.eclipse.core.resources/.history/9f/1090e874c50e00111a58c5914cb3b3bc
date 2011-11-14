@@ -1,0 +1,5 @@
+package br.com.caelum.tdd.exercise7;
+
+public class Invoice {
+
+}

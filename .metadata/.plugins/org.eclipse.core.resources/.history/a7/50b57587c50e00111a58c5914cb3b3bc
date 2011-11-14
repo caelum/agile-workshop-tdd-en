@@ -1,0 +1,10 @@
+package br.com.caelum.tdd.exercise7;
+
+import java.util.List;
+
+public class InvoiceFilter {
+
+	public List<Invoice> filter(List<Invoice> original) {
+		
+	}
+}
