@@ -7,7 +7,7 @@ public class BankslipProcessor {
 	public void process(List<Bankslip> bankslips, Invoice invoice) {
 		for(Bankslip bankslip : bankslips) {
 			Payment newPayment = new Payment(bankslip.getAmount(), PaymentMethod.BANKSLIP);
-			invoice.add(newPayment);
+			invoice.getPayments().add(newPayment);
 		}
 	}
 }

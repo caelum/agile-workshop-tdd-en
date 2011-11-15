@@ -8,6 +8,7 @@ public class Invoice {
 	private String customer;
 	private double amount;
 	private List<Payment> payments;
+	private boolean paid;
 	
 	public Invoice(String customer, double amount) {
 		this.customer = customer;
@@ -27,17 +28,12 @@ public class Invoice {
 		return payments;
 	}
 
-	public boolean isPaid() {
-		double total = 0;
-		for(Payment p: payments) {
-			total += p.getAmount();
-		}
-		return total >= amount;
+	public void setPaid(boolean paid) {
+		this.paid = paid;
 	}
 
-	public void add(Payment newPayment) {
-		this.payments.add(newPayment);
+	public boolean isPaid() {
+		return paid;
 	}
-	
-	
+
 }
